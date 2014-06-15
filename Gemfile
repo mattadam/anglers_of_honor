@@ -38,5 +38,5 @@ gem 'rails_12factor', group: :production
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem ruby "2.1.1"
+gem 'ruby', '2.1.1'
 
