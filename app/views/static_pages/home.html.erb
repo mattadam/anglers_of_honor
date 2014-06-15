@@ -1,2 +1,954 @@
-<h1>StaticPages#home</h1>
-<p>Find me in app/views/static_pages/home.html.erb</p>
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Buzz : Home-V1</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!--Google Font -->
+
+	<!-- title font-->
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,300italic,400italic,500,500italic,700,700italic,900,900italic&amp;subset=latin,cyrillic-ext,latin-ext,cyrillic,greek-ext,vietnamese,greek' rel='stylesheet' type='text/css'>
+   
+	<!-- content font-->
+	
+	<link href='http://fonts.googleapis.com/css?family=Arimo:400,400italic,700,700italic&amp;subset=latin,cyrillic-ext,latin-ext,cyrillic,greek-ext,greek,vietnamese' rel='stylesheet' type='text/css'>
+  
+</head>
+
+<body>
+ <div id="boxed">
+<section>
+
+    <!-- NAVBAR
+    ================================================== -->
+    <div class="navbar-wrapper">
+	    <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
+        <div class="container">
+			<div class="logo">
+			    <a class="brand" href="#"><img src="assets/logo.png" alt=""/><span class="icon-rocket header-icon"></span></a>
+			</div>						
+
+			<div class="follower">
+				<ul>
+					<li><a class="fr" href="#"><span class="icon-plus-3 add"></span>Follow</a>
+						<div class="follow-list"> 
+							<ul>
+								<li class="s-facebook"><a href="#"><span class="icon-facebook"></span>Facebook</a></li>
+								<li class="s-twitter"><a href="#"><span class="icon-twitter"></span>Twitter</a></li>
+								<li class="s-google"><a href="#"><span class="icon-googleplus"></span>Google Plus</a></li>
+								<li class="s-dribbble"><a href="#"><span class="icon-dribbble"></span>Dribbble</a></li>
+								<li class="s-instagram"><a href="#"><span class="icon-instagram"></span>Instagram</a></li>
+							</ul>
+						</div>						
+					</li>
+					<li><a class="sr" href="#"><span class="search icon-search"></span></a></li>
+				</ul>
+			</div>		
+			
+			<div id="main-menu">
+				<!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
+				<ul class="sf-menu color-m"> <!-- Menu color Class  "color-m"-->
+					<li>
+						<a href="home.html"><span class="icon-house"></span>Home</a>
+						<ul>
+							<li><a href="home-v1.html" class=" color">Home v1</a></li>
+							<li><a href="home-v2.html" class=" color">Home v2</a></li>
+							<li><a href="home-v3.html" class=" color">Home v3</a></li>
+							<li><a href="home-v4.html" class=" color">Home v4</a></li>
+						</ul>					
+					</li>
+					<li>
+						<a href="#"><span class="icon-docs"></span>Pages</a>					  
+						<ul>
+							<li>
+								<a href="#" class=" color">About us</a>
+								<ul>
+									<li><a href="about_us_v1.html" class=" color">About us v1</a></li>
+									<li><a href="about_us_v2.html" class=" color">About us v2</a></li>	
+									<li><a href="about_Meet_team.html" class=" color">Meet the team</a></li>	
+								</ul>						
+							</li>	
+							
+							<li>
+								<a href="#" class=" color">Service</a>
+								<ul>
+									<li><a href="service-1.html" class=" color">Our Service V1</a></li>
+									<li><a href="service-2.html" class=" color">Our Service V2</a></li>
+								</ul>
+							</li>
+							<li><a href="gallery.html" class=" color">Gallery</a></li>
+							<li><a href="Full_width.html" class=" color">Full Width Sample</a></li>
+							<li><a href="Page_with_right_sidebar.html" class=" color">Page with Right Sidebar</a></li>
+							<li><a href="Page_with_left_sidebar.html" class=" color">Page with Left Sidebar</a></li>
+							<li><a href="Pricing_Table.html" class=" color">Pricing Table</a></li>					
+							<li><a href="404.html" class=" color">404</a></li>
+							<li><a href="contact.html" class=" color">Contact</a></li>
+						</ul>			
+					</li>
+					<li>
+						<a href="#"><span class="icon-layout "></span>Portfolio</a>
+						<ul>
+							<li><a href="Portfolio_Fullwidth.html" class=" color">Portfolio Fullwidth</a></li>
+							<li><a href="Portfolio_Gridbase.html" class=" color">Portfolio Gridbase</a></li>
+							<li><a href="Portfolio_Listview_col.html" class=" color">Portfolio Listbase</a></li>
+							<li><a href="Portfolio_sidebar.html" class=" color">Portfolio with sidebar</a></li>					  
+							<li><a href="Portfolio_single2.html" class=" color">Portfolio Single Page 2</a></li>
+							<li><a href="Portfolio_slider.html" class=" color">Portfolio Single Slider</a></li>
+							<li><a href="Portfolio_video.html" class=" color">Portfolio Single Video</a></li>
+						</ul>	
+					</li>
+					<li>
+						<a href="#"><span class="icon-cycle"></span>Blog</a>
+						<ul>
+							<li><a href="blog.html" class=" color">Blog fullwidth</a></li>
+							<li><a href="Blog_sidebar.html" class=" color">Blog with sidebar</a></li>
+							<li><a href="Blog_Sidebar_single.html" class=" color">Single Blog Sample</a></li>
+						</ul>					
+					</li>
+					
+				    <li><a href="#"><span class="icon-feather "></span>Features</a>
+						<ul>
+							<li><a href="shortcode.html" class=" color">Shortcode</a></li>
+							<li><a href="Pricing_Widgets.html" class=" color">Pricing Table & Widgets</a></li>
+						</ul>				   
+				    </li> 
+				</ul>  
+			</div><!-- /main-menu -->
+		</div> <!-- /.container -->
+	  
+		<div class="search-bar">
+			<div class="container">
+				<p><b> <span class="search icon-search"></span></b>
+				<input type="text" value="Type to Search" name="searchinput" id="searchinput" onblur="if (this.value == ''){this.value = 'Type to Search';}" onfocus="if (this.value == 'Type to Search'){this.value = '';}"   />
+				<a href="#" class="close"> <span class="search icon-cross"></span></a></p>
+			</div> <!-- /.container -->
+		</div><!-- /.search-bar -->
+    </div><!-- /.navbar-wrapper -->
+	
+
+	
+	
+    <!-- Revolution Slider
+    ================================================== -->
+         
+          <div class="fullwidthbanner-container">
+					<div class="fullwidthbanner">
+						<ul>
+							<!-- THE FIRST SLIDE -->
+							<li data-transition="3dcurtain-vertical" data-slotamount="10" data-masterspeed="300" data-thumb="assets/thumbs/thumb1.jpg">
+								<!-- THE MAIN IMAGE IN THE FIRST SLIDE-->
+								<img src="assets/slides/00_01.png" alt="">
+
+								<!-- THE CAPTIONS IN THIS SLDIE -->
+								<div class="caption sfb text_background_black size30 common_color common_fonts line_normal slider_content"
+									 data-x="135"
+									 data-y="175"
+									 data-speed="300"
+									 data-start="1500"
+									 data-easing="easeOutExpo" >Welcome to </div>
+									 
+								 <div class="caption sfb text_background_black size30 common_color common_fonts line_normal slider_content"
+									 data-x="135"
+									 data-y="235"
+									 data-speed="300"
+									 data-start="2000"
+									 data-easing="easeOutExpo">A Simple, Clean and Effective Theme  </div>
+									 
+								<div class="caption text_background_black sfb size50 common_fonts common_color line_normalslider_content bp"
+									 data-x="325"
+									 data-y="145"
+									 data-speed="300"
+									 data-start="3000"
+									 data-easing="easeOutExpo">BUZZ</div>	
+
+								<div class="caption sfb size40"
+									 data-x="468"
+									 data-y="164"
+									 data-speed="300"
+									 data-start="3500"
+									 data-easing="easeOutExpo"><span class="icon-rocket  header-icon"></span></div>														
+
+								<div class="caption randomrotate"
+									 data-x="125"
+									 data-y="325"
+									 data-speed="600"
+									 data-start="4000"
+									 data-easing="easeOutExpo" ><img src="assets/slides/00_02.png" alt=""/></div>
+
+										
+							</li>
+
+							<!-- THE SECOND SLIDE -->
+							<li data-transition="3dcurtain-vertical" data-slotamount="10" data-masterspeed="300" data-thumb="assets/thumbs/thumb1.jpg">
+								<!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
+								<img src="assets/slides/00_08.png" alt=""/>
+
+								<!-- THE CAPTIONS IN THIS SLDIE -->
+								<div class="caption medium_text sfb"
+									 data-x="-190"
+									 data-y="0"
+									 data-speed="300"
+									 data-start="1500"
+									 data-easing="easeOutExpo"><a href="#"><img src="assets/slides/00_52.png" alt=""/></a></div>
+
+								<div class="caption sfb white_bg size30 black_color common_fonts line_normal slider_content"
+									 data-x="35"
+									 data-y="175"
+									 data-speed="300"
+									 data-start="2000"
+									 data-easing="easeOutExpo">Responsive Layout.</div>
+									 
+								 <div class="caption sfb white_bg size30 black_color common_fonts line_normal slider_content"
+									 data-x="35"
+									 data-y="245"
+									 data-speed="300"
+									 data-start="3000"
+									 data-easing="easeOutExpo">Mobile Friendly Design.</div>
+									 
+								<div class="caption medium_text sfb"
+									 data-x="35"
+									 data-y="315"
+									 data-speed="300"
+									 data-start="4000"
+									 data-easing="easeOutExpo"><a href="#"><img src="assets/slides/00_09.png" alt=""/></a></div>														
+
+								<div class="caption randomrotate"
+									 data-x="450"
+									 data-y="208"
+									 data-speed="600"
+									 data-start="5000"
+									 data-easing="easeOutExpo"><img src="assets/slides/00_10.png" alt=""/></div>
+									 
+								<div class="caption randomrotate"
+									 data-x="850"
+									 data-y="394"
+									 data-speed="600"
+									 data-start="6000"
+									 data-easing="easeOutExpo"><img src="assets/slides/00_13.png" alt=""/></div>
+									 
+								<div class="caption randomrotate"
+									 data-x="455"
+									 data-y="122"
+									 data-speed="600"
+									 data-start="7000"
+									 data-easing="easeOutExpo"><img src="assets/slides/00_12.png"  alt=""/></div>
+									 
+								<div class="caption randomrotate"
+									 data-x="310"
+									 data-y="306"
+									 data-speed="600"
+									 data-start="8000"
+									 data-easing="easeOutExpo"><img src="assets/slides/00_11.png" alt=""/></div>										
+							</li>
+							
+							<!-- THE THIRD SLIDE -->
+							<li data-transition="3dcurtain-vertical" data-slotamount="10" data-masterspeed="300" data-thumb="assets/thumbs/thumb1.jpg">
+								<!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
+								<img src="assets/slides/00_15.png" alt="" />
+
+								<!-- THE CAPTIONS IN THIS SLDIE -->
+								<div class="caption sfb green_bg size40 green_color bold common_fonts title_border"
+									 data-x="18"
+									 data-y="230"
+									 data-speed="300"
+									 data-start="1500"
+									 data-easing="easeOutExpo">Highly customizable</div>
+									 
+								 <div class="caption sfb size30 common_color common_fonts"
+									 data-x="15"
+									 data-y="310"
+									 data-speed="300"
+									 data-start="3000"
+									 data-easing="easeOutExpo">Buzz’s packed with lots of useful features,</div>	
+
+								<div class="caption sfb size30 common_color common_fonts "
+									 data-x="15"
+									 data-y="350"
+									 data-speed="300"
+									 data-start="3500"
+									 data-easing="easeOutExpo">variations and shortcodes.</div>
+
+								<div class="caption randomrotate"
+									 data-x="549"
+									 data-y="108"
+									 data-speed="600"
+									 data-start="4000"
+									 data-easing="easeOutExpo"><img src="assets/slides/00_14.png" alt=""/></div>
+									 
+							</li>
+							
+							<!-- THE FOURTH SLIDE -->
+							<li data-transition="3dcurtain-vertical" data-slotamount="10" data-masterspeed="300" data-thumb="assets/thumbs/thumb1.jpg">
+								<!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
+								<img src="assets/slides/00_16.png" >
+
+								<!-- THE CAPTIONS IN THIS SLDIE -->												
+								 <div class="caption sfb size40 defult_color common_fonts"
+									 data-x="0"
+									 data-y="220"
+									 data-speed="300"
+									 data-start="1500"
+									 data-easing="easeOutExpo">Add & Play Your</div>
+
+								<div class="caption sfb size40 defult_color common_fonts"
+									 data-x="0"
+									 data-y="270"
+									 data-speed="300"
+									 data-start="1500"
+									 data-easing="easeOutExpo">Favorite Videos</div>
+
+								<div class="caption sfb size40 defult_color common_fonts"
+									 data-x="0"
+									 data-y="320"
+									 data-speed="300"
+									 data-start="1500"
+									 data-easing="easeOutExpo">Right Here.</div>
+
+								<div class="caption randomrotate"
+									 data-x="300"
+									 data-y="92"
+									 data-speed="600"
+									 data-start="2500"
+									 data-easing="easeOutExpo"><img src="assets/slides/00_17.png" alt=""/></div>
+									 
+							</li>
+						</ul>
+
+						<div class="tp-bannertimer"></div>
+					</div>
+				</div> <!--/fullwidthbanner-container-->		
+
+<div class="col-wrap bg-deepgray  bg"><!-- style col-shadow/ col-gray/ testimonial/-->
+<div class="container ">
+      <!-- Three columns of text below the carousel -->
+      <div class="row-fluid"><!-- box-style row Class .box-style -->
+        <div class="span6">
+			
+			  <h1>About this theme</h1>
+			  
+					<!--   hr-Start-->			  
+				<div class="hr hr-left  hr-short"> <!--   hr-center/ hr-left/ hr-right/  hr-short/ hr-light/-->
+					<span class="hr-inner">
+						<span class="hr-inner-style"></span>
+					</span>
+				</div>
+					<!--   hr-End-->			  
+			  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velitero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+			  </p>
+			  <p><a class="button purchase" href="#"><span class="icon-cart"></span>Purchase now</a></p>
+
+        </div><!-- /.span4 -->
+
+        <div class="span6 ">
+				  
+				 <!--   Tab Box -->	
+
+<div class="slider-man">
+ <div id="slider2" class="imgslider6">
+
+				<img src="http://placehold.it/475x300/3781DD/fff" class="slide" alt=""/>		
+				<img src="http://placehold.it/475x300/37DDA8/fff" class="slide" alt=""/>		
+				<img src="http://placehold.it/475x300/3CE11B/fff" class="slide" alt=""/>			
+		
+	
+		<div id="prev2"  class="prev2"><a href="#"><span class="icon-arrow-left-7"></span></a></div>
+		<div id="next2" class="next2"><a href="#"><span class="icon-untitled-2"></span></a></div>
+<div class="nav1 navbtn nav-btn"></div>		
+	</div>		
+	</div>	
+</div>
+
+        </div><!-- /.span4 -->
+      </div><!-- /.row -->		  
+</div>
+</div><!-- /.col -->	
+
+
+		  
+	
+	
+	
+
+<div class="col-wrap"><!-- style col-shadow/ col-gray/ testimonial/-->
+<div class="container ">
+      <!-- Three columns of text below the carousel -->
+      <div class="row-fluid  tb-mar"><!-- box-style row Class .box-style -->
+        <div class="span6 services animationBegin">
+			
+		<img class='themeapt_image themeapt_animate_when_almost_visible right-to-left' src="assets/phones.png" alt="">
+		
+        </div><!-- /.span4 -->
+
+        <div class="span6">
+			
+			  <h1>Ultra responsive design</h1>
+			  
+					<!--   hr-Start-->			  
+				<div class="hr hr-left  hr-short"> <!--   hr-center/ hr-left/ hr-right/  hr-short/ hr-light/-->
+					<span class="hr-inner">
+						<span class="hr-inner-style"></span>
+					</span>
+				</div>
+					<!--   hr-End-->			  
+			  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velitero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+			  </p>
+			  <p><a class="button " href="#">Learn more</a></p>
+
+        </div><!-- /.span4 -->
+		
+      </div><!-- /.row -->		  
+</div>
+</div><!-- /.col -->	
+
+		 
+
+
+<div class="col-wrap col-shadow col-gray"><!-- style col-shadow/ col-gray/ testimonial/-->
+	<div class="container ">
+<div class="row-fluid  t-mar">
+<h1>Core features</h1>	
+				<!--   hr-Start-->	
+			<div class="hr hr-left hr-short"> <!--   hr-center/ hr-left/ hr-right/  hr-short/ hr-light/-->
+				<span class="hr-inner">
+					<span class="hr-inner-style"></span>
+				</span>
+			</div>
+				<!--   hr-Close-->
+	
+<br/>
+
+	</div><!-- /.row -->
+	
+      <!-- Two columns of text below the Box -->
+      <div class="row-fluid">
+        <div class="span4">
+					
+			<div class="service2"> <!-- box-style row Class .box-style -->
+
+			  <h2><span class="icon-browser"></span>Web Design</h2>
+			  <p>Lorem ipsum dolor sit amet, elit, sed diam nonummy nibh dolore magna aliquam erat volutpat...</p>
+
+			</div><!-- /.spanin -->
+        </div><!-- /.span4            1-->
+		
+        <div class="span4">
+					
+			<div class="service2"> <!-- box-style row Class .box-style -->
+
+			  <h2><span class=" icon-docs"></span>Apps Design</h2>
+			  <p>Lorem ipsum dolor sit amet, elit, sed diam nonummy nibh dolore magna aliquam erat volutpat...</p>
+			</div><!-- /.spanin -->
+        </div><!-- /.span4             2 -->
+		
+        <div class="span4">
+					
+			<div class="service2"> <!-- box-style row Class .box-style -->
+
+			  <h2><span class="icon-feather"></span>Branding</h2>
+			<p>Lorem ipsum dolor sit amet, elit, sed diam nonummy nibh dolore magna aliquam erat volutpat...</p>
+
+			</div><!-- /.spanin -->
+        </div><!-- /.span4           3-->		
+
+      </div><!-- /.row -->
+	  
+      <!-- Two columns of text below the Box -->
+      <div class="row-fluid">
+	  
+        <div class="span4">
+					
+			<div class="service2"> <!-- box-style row Class .box-style -->
+
+			  <h2><span class=" icon-code"></span>Development</h2>
+			 <p>Lorem ipsum dolor sit amet, elit, sed diam nonummy nibh dolore magna aliquam erat volutpat...</p>
+
+			</div><!-- /.spanin -->
+        </div><!-- /.span4              4-->	
+		
+        <div class="span4">
+					
+			<div class="service2"> <!-- box-style row Class .box-style -->
+
+			  <h2><span class="icon-flag"></span>Marketing</h2>
+			  <p>Lorem ipsum dolor sit amet, elit, sed diam nonummy nibh dolore magna aliquam erat volutpat...</p>
+
+			</div><!-- /.spanin -->
+        </div><!-- /.span4               5-->	
+		
+        <div class="span4">
+					
+			<div class="service2"> <!-- box-style row Class .box-style -->
+
+			  <h2><span class="icon-archive"></span>IT Consulting</h2>
+			  <p>Lorem ipsum dolor sit amet, elit, sed diam nonummy nibh dolore magna aliquam erat volutpat...</p>
+
+			</div><!-- /.spanin -->
+        </div><!-- /.span4                 6-->	
+		
+		
+      </div><!-- /.row -->	
+
+      <!-- Two columns of text below the Box -->
+      <div class="row-fluid">
+	  
+        <div class="span4">
+					
+			<div class="service2"> <!-- box-style row Class .box-style -->
+
+			  <h2><span class="icon-code"></span>Development</h2>
+			 <p>Lorem ipsum dolor sit amet, elit, sed diam nonummy nibh dolore magna aliquam erat volutpat...</p>
+
+			</div><!-- /.spanin -->
+        </div><!-- /.span4              4-->	
+		
+        <div class="span4">
+					
+			<div class="service2"> <!-- box-style row Class .box-style -->
+
+			  <h2><span class="icon-cloud"></span>Globalyzing</h2>
+			  <p>Lorem ipsum dolor sit amet, elit, sed diam nonummy nibh dolore magna aliquam erat volutpat...</p>
+
+			</div><!-- /.spanin -->
+        </div><!-- /.span4               5-->	
+		
+        <div class="span4">
+					
+			<div class="service2"> <!-- box-style row Class .box-style -->
+
+			  <h2><span class="icon-trophy"></span>Business Troops</h2>
+			  <p>Lorem ipsum dolor sit amet, elit, sed diam nonummy nibh dolore magna aliquam erat volutpat...</p>
+
+			</div><!-- /.spanin -->
+        </div><!-- /.span4                 6-->	
+		
+		
+      </div><!-- /.row -->		  
+	  
+	</div><!-- /.container -->
+</div><!-- /.col -->	
+
+
+
+
+<div class="col-wrap bg home-b"><!-- style col-shadow/ col-gray/ testimonial/-->
+<div class="container ">		
+			
+<div class="row-fluid no-mar">
+	<div class="span12">
+				<div class="home-banner ">
+<h1>Buzz contain parallax style</h1>
+				</div>
+				
+	</div><!-- /.span12 -->
+</div><!-- /.row-fluid -->
+	  
+</div>
+</div><!-- /.col -->
+
+	
+
+
+<div class="col-wrap "><!-- style col-shadow/ col-gray/ testimonial/-->
+<div class="container ">		
+			
+<div class="row-fluid tb-mar">
+	<div class="span12">
+
+
+					
+		<div class="tabs style-1 tab-full">
+			
+			<div id="htabs_op">
+				<ul>
+					<li><a href="#tabs-1"><span class="icon-light-bulb"></span>Tab 1</a></li>
+					<li><a href="#tabs-2"><span class="icon-ccw"></span>Tab 2</a></li>
+					<li><a href="#tabs-3"><span class="icon-lifebuoy"></span>Tab 3</a></li>
+				</ul>
+				<div id="tabs-1" class="center">
+					  <h1>Multipurpose use.</h1>
+			  
+									<!--   hr-Start-->	
+								<div class="hr  hr-center"> <!--   hr-center/ hr-left/ hr-right/  hr-short/ hr-light/-->
+									<span class="hr-inner">
+										<span class="hr-inner-style"></span>
+									</span>
+								</div>
+									<!--   hr-Close-->		 
+
+						<p>Euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam. Euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Euismod tincidunt ut laoreet.</p>
+						<img class='themeapt_image themeapt_animate_when_almost_visible right-to-left' src="assets/window.png" alt="">
+				</div>
+				
+				<div id="tabs-2" class="center">
+					  <h1>Tons of Variations.</h1>
+					  
+						<!--   hr-Start-->	
+					<div class="hr  hr-center"> <!--   hr-center/ hr-left/ hr-right/  hr-short/ hr-light/-->
+						<span class="hr-inner">
+							<span class="hr-inner-style"></span>
+						</span>
+					</div>
+						<!--   hr-Close-->		 
+
+						<p>Euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam. Euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Euismod tincidunt ut laoreet.</p>
+						<img src="assets/window.png" alt="">
+				</div>
+				<div id="tabs-3" class="center">
+				  <h1>Extensive Support.</h1>
+			  
+						<!--   hr-Start-->	
+					<div class="hr  hr-center"> <!--   hr-center/ hr-left/ hr-right/  hr-short/ hr-light/-->
+						<span class="hr-inner">
+							<span class="hr-inner-style"></span>
+						</span>
+					</div>
+						<!--   hr-Close-->		 
+
+				<p>Euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam. Euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Euismod tincidunt ut laoreet.</p>
+					<img src="assets/window.png" alt="">
+				</div>
+			</div>
+			
+			<div class="clear"></div>
+		</div><!--tabs-->
+		
+		
+		
+				
+	</div><!-- /.span12 -->
+</div><!-- /.row-fluid -->
+	  
+</div>
+</div><!-- /.col -->
+
+		
+
+
+	
+
+
+
+<div class="col-wrap col-shadow col-gray"><!-- style col-shadow/ col-gray/ testimonial/-->
+	<div class="container ">
+
+
+      <!-- Two columns of text below the Box -->
+      <div class="row-fluid t-mar"><!-- box-style row Class .box-style -->
+	        <!--   Big Title wrap -->	
+
+					 <h1>Latest posts from blog</h1>
+			  
+				<!--   hr-Start-->			  
+			<div class="hr hr-left hr-short"> <!--   hr-center/ hr-left/ hr-right/  hr-short/ hr-light/-->
+				<span class="hr-inner">
+					<span class="hr-inner-style"></span>
+				</span>
+			</div>
+			<!--   hr-End-->
+		
+      </div><!-- /.row -->				
+			
+			
+	<div class="row-fluid"><!-- box-style row Class .box-style -->		
+      
+		<div class="span4">
+			<div class="blog">
+
+				 <div class="img services animationBegin"><a href="#"><img class='themeapt_image themeapt_animate_when_almost_visible top-to-bottom' src="http://placehold.it/295x200/27ae60/fff" alt=""></a></div>
+					<h2><a href="#">Default Post with Beautiful Preview Image.</a></h2>
+
+					<p><small>in <span>Default</span></small></p>
+					<p>Sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat... </p>
+						
+						<div><a class="button" href="#">Read More</a> 
+							<div class="likebtn">
+								<a class="l-btn"  href="#"><span class="icon-export"></span></a>
+				<div class="follow-list likelist"> 
+					<ul>
+						<li><a href="#"><span class="icon-facebook"></span>Facebook</a></li>
+						<li><a href="#"><span class="icon-twitter"></span>Twitter</a></li>
+						<li><a href="#"><span class="icon-googleplus"></span>Google Plus</a></li>
+					</ul>
+				</div>									
+							</div>
+						</div>
+			</div><!-- /portfolio-item -->
+        </div><!-- /.span4 -->
+
+        <div class="span4">
+			<div class="blog">
+
+				  <div class="img vimeo services animationBegin"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/4-OEMBVg9bM?feature=player_detailpage" frameborder="0" allowfullscreen></iframe></div>
+					<h2><a href="#">Default Post with Beautiful Preview Image.</a></h2>
+
+					<p><small>in <span>Default</span></small></p>
+					<p>Sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat... </p>
+						
+						<div><a class="button" href="#">Read More</a> 
+							<div class="likebtn">
+								<a class="l-btn"  href="#"><span class="icon-export"></span></a>
+				<div class="follow-list likelist"> 
+					<ul>
+						<li><a href="#"><span class="icon-facebook"></span>Facebook</a></li>
+						<li><a href="#"><span class="icon-twitter"></span>Twitter</a></li>
+						<li><a href="#"><span class="icon-googleplus"></span>Google Plus</a></li>
+					</ul>
+				</div>									
+							</div>
+						</div>
+			</div><!-- /portfolio-item -->
+        </div><!-- /.span4 -->	 
+
+        <div class="span4">
+			<div class="blog">
+
+<div class="imgslider img services animationBegin">
+	<div id="">
+
+		
+  <img src="http://placehold.it/300x205/27ae60/fff" class="slide" alt=""/>		
+  <img src="http://placehold.it/300x205/861BE1/fff" class="slide" alt=""/>		
+  <img src="http://placehold.it/300x205/2E73C2/fff" class="slide" alt=""/>		
+		
+
+
+
+		
+		<div id="prev3" class="prev2"><a href="#"><span class="icon-arrow-left-7"></span></a></div>
+		<div id="next3" class="next2"><a href="#"><span class="icon-untitled-2"></span></a></div>
+<div class="nav2 navbtn nav-btn"></div>		
+	</div>	
+</div>
+					<h2><a href="#">Default Post with Beautiful Preview Image.</a></h2>
+
+					<p><small>in <span>Default</span></small></p>
+					<p>Sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat... </p>
+						
+						<div class=""><a class="button" href="#">Read More</a> 
+							<div class="likebtn services animationBegin">
+								<a class="l-btn"  href="#"><span class="icon-export"></span></a>
+				<div class="follow-list likelist"> 
+					<ul>
+						<li><a href="#"><span class="icon-facebook"></span>Facebook</a></li>
+						<li><a href="#"><span class="icon-twitter"></span>Twitter</a></li>
+						<li><a href="#"><span class="icon-googleplus"></span>Google Plus</a></li>
+					</ul>
+				</div>									
+							</div>
+						</div>
+			</div><!-- /portfolio-item -->
+        </div><!-- /.span4 -->			
+		
+      </div><!-- /.row -->		 
+
+  
+    
+	</div><!-- /.container -->
+</div><!-- /.col -->	
+	
+	
+	
+	
+<div class="col-wrap "><!-- style col-shadow/ col-gray/ testimonial/-->
+	<div class="container ">
+
+      <!-- Two columns of text below the Box -->
+      <div class="row-fluid tb-mar"><!-- box-style row Class .box-style -->
+
+        <div class="span12">
+			<div class="subscrib homesub">
+				<form method="get" id="searchform" action=""> 
+	        <!--   Big Title wrap -->	
+
+						  <h1>Subscribe to our newsletter</h1>
+		  
+						<!--   hr-Start-->			  
+					<div class="hr hr-center"> <!--   hr-center/ hr-left/ hr-right/  hr-short/ hr-light/-->
+						<span class="hr-inner">
+							<span class="hr-inner-style"></span>
+						</span>
+					</div><!--   hr-End-->
+					
+				<p>
+					Minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat...
+				</p>	
+				<p>
+					<input type="text" value="Enter your email address ..." name="subscrib" id="subscrib" onblur="if (this.value == ''){this.value = 'Enter your email address ...';}" onfocus="if (this.value == 'Enter your email address ...'){this.value = '';}"   />
+				<input type="submit" value="Subscribe Now" class="submit button purchase btn-sent " />
+				</p>
+
+				<p></p>
+				</form>
+
+			</div><!-- /portfolio-item -->
+        </div><!-- /.span4 -->
+ 		
+			 
+      </div><!-- /.row -->		
+	 
+ 
+	</div><!-- /.container -->
+</div><!-- /.col -->	
+	
+		
+	
+	
+<div class="col-wrap col-shadow col-gray"><!-- style col-shadow/ col-gray/ testimonial/-->
+	<div class="container ">
+
+      <!-- Two columns of text below the Box -->
+      <div class="row-fluid"><!-- box-style row Class .box-style -->
+
+
+						  <h1>Our clients</h1>	
+
+				<!--   hr-Start-->	
+			<div class="hr hr-left hr-light"> <!--   hr-center/ hr-left/ hr-right/  hr-short/ hr-light/-->
+				<span class="hr-inner">
+					<span class="hr-inner-style"></span>
+				</span>
+			</div>	
+	<!--   hr-Close-->
+<ul class="pagenavi cl_nav">
+<li><a class="prev" href="#">
+<span class="icon-arrow-left-5"></span>
+</a></li>
+
+<li><a class="next" href="#">
+<span class="icon-arrow-right-5"></span>
+</a></li>
+</ul>	  
+			<div class="span12 themeapt-gallery  themeapt_animate_when_visible">
+	  
+				<div class="client themeapt-gallery-thumb">
+					<ul>
+						<li><a href="#" class="bwWrapper featured "><img src="http://placehold.it/198x120/fff/3CE11B" alt=""></a></li>
+						<li><a href="#" class="bwWrapper featured "><img src="http://placehold.it/198x120/fff/E11B8B" alt=""></a></li>
+						<li><a href="#" class="bwWrapper featured "><img src="http://placehold.it/198x120/fff/000" alt=""></a></li>
+						<li><a href="#" class="bwWrapper featured "><img src="http://placehold.it/198x120/fff/E1451B" alt=""></a></li>
+						<li><a href="#" class="bwWrapper featured "><img src="http://placehold.it/198x120/fff/D5E11B" alt=""></a></li>
+						<li><a href="#" class="bwWrapper featured "><img src="http://placehold.it/198x120/fff/37DDA8" alt=""></a></li>
+						<li><a href="#" class="bwWrapper featured "><img src="http://placehold.it/198x120/fff/EDB7B7" alt=""></a></li>
+						<li><a href="#" class="bwWrapper featured "><img src="http://placehold.it/198x120/fff/2E73C2" alt=""></a></li>						
+					</ul>
+				</div>
+
+						
+			</div><!-- /.span4 -->
+
+      </div><!-- /.row -->		 
+ 
+	</div><!-- /.container -->
+</div><!-- /.col -->	
+	
+
+	
+	
+	
+	<!--Footer _ Start-->
+	
+	<div class="footerbox col-shadow">
+			<div class="container">
+					<div class="fbox">	
+					
+						<h2>Get in Touch</h2>
+					<!--   hr-Start-->	
+				<div class="hr hr-left hr-light"> <!--   hr-center/ hr-left/ hr-right/  hr-short/ hr-light/-->
+					<span class="hr-inner">
+						<span class="hr-inner-style"></span>
+					</span>
+				</div>
+					<!--   hr-Close-->
+					<p> <a class="brand" href="#"><img src="assets/logo2.png" alt=""/><span class="icon-rocket footer-icon color"></span></a></p>
+						<address>
+							<p><span class="icon-house"></span>622/1, Road #56 Block # C, Section #13, Mirpur, Dhaka #1216, Bangladesh.	</p>
+							<p><span class="icon-phone"></span>+124 6556 7890</p>
+							<p><span class="icon-mail"></span>hello@themeapt.com</p>
+						</address>	<!--fpost_close-->
+						
+					</div>	<!--fpost_close-->	
+
+					<div class="fbox">	
+					
+					<h2>Recent Post</h2>
+					<!--   hr-Start-->	
+				<div class="hr hr-left hr-light"> <!--   hr-center/ hr-left/ hr-right/  hr-short/ hr-light/-->
+					<span class="hr-inner">
+						<span class="hr-inner-style"></span>
+					</span>
+				</div>
+					<!--   hr-Close-->					
+					<ul>
+					<li><a href="#">Default Post with Beautiful Preview Image.</a>
+						<small>in <span>Default</span></small>
+					</li>
+					<li><a href="#">Default Post with Vimeo Video Player</a>
+						<small>in <span>Video</span></small>					
+					</li>
+					<li><a href="#">Default Post with Beautiful Sliding images</a>
+						<small>in <span>Slider</span></small>					
+					</li>
+
+					</ul>
+					</div>	<!--fpost_close-->	
+
+					<div class="fbox">	
+					
+					<h2>Tweets</h2>
+				<!--   hr-Start-->	
+			<div class="hr hr-left hr-light"> <!--   hr-center/ hr-left/ hr-right/  hr-short/ hr-light/-->
+				<span class="hr-inner">
+					<span class="hr-inner-style"></span>
+				</span>
+			</div>
+				<!--   hr-Close-->					
+					<div id="gettweet"><span class="wait">Loading tweets...</span></div>
+					
+					</div>	<!--fpost_close-->	
+
+					<div class="fbox last">	
+					
+					<h2>Links</h2>
+				<!--   hr-Start-->	
+			<div class="hr hr-left hr-light"> <!--   hr-center/ hr-left/ hr-right/  hr-short/ hr-light/-->
+				<span class="hr-inner">
+					<span class="hr-inner-style"></span>
+				</span>
+			</div>
+				<!--   hr-Close-->					
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Blog</a></li>
+                <!-- Read about Bootstrap dropdowns at http://twitter.github.com/bootstrap/javascript.html#dropdowns -->
+               <li>
+                  <a href="#" >Shortcode </a>
+				</li> 
+              </ul> 
+
+
+	
+					</div>	<!--fpost_close-->						
+					
+				<div class="clear"></div>
+		
+			</div><!--Wrap_close-->	
+	</div>			
+	
+<div class="footer">
+	<div class="container">
+		<p>
+			&copy; 2013 Buzz: Responsive Multiporpuse HTML Template. Designed and Developed by <span><a href="http://themeapt.com" target="_blank">ThemeApt</a></span>
+		</p>
+	</div>	
+</div>	
+	
+</section>
+	</div>
+
+</body>
+</html>
