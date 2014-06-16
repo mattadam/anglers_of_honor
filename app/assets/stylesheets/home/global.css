@@ -4036,9 +4036,14 @@ Remove comment of this section for Boxed
 	margin-right:0;
 } */
 
- @media (min-width: 767px and max-width: 801) {
+@media (min-width: 767px) {
 	.slider-man {
 		margin-top:0;
-	}
- 
+	} 
  }
+
+@media (max-width: 801px) {
+    .slider-man {
+        margin-top:0;
+    }
+}
