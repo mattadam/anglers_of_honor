@@ -94,7 +94,7 @@ jQuery(document).ready(function() {
 	jQuery.ajax({	
 		type: "POST",
 		url: "tweets/get-tweets.php",
-		data: 'user=envato',	//your twitter username 
+		data: 'user=girlssportscoach',	//your twitter username 
 		success: function(msg){
 
 			jQuery("#gettweet").html(msg);

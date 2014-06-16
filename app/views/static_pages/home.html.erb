@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Buzz : Home-V1</title>
+<title>Anglers Of Honor</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 	<!--Google Font -->
@@ -21,115 +20,8 @@
  <div id="boxed">
 <section>
 
-    <!-- NAVBAR
-    ================================================== -->
-    <div class="navbar-wrapper">
-	    <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
-        <div class="container">
-			<div class="logo">
-			    <a class="brand" href="#"><img src="assets/logo.png" alt=""/><span class="icon-rocket header-icon"></span></a>
-			</div>						
-
-			<div class="follower">
-				<ul>
-					<li><a class="fr" href="#"><span class="icon-plus-3 add"></span>Follow</a>
-						<div class="follow-list"> 
-							<ul>
-								<li class="s-facebook"><a href="#"><span class="icon-facebook"></span>Facebook</a></li>
-								<li class="s-twitter"><a href="#"><span class="icon-twitter"></span>Twitter</a></li>
-								<li class="s-google"><a href="#"><span class="icon-googleplus"></span>Google Plus</a></li>
-								<li class="s-dribbble"><a href="#"><span class="icon-dribbble"></span>Dribbble</a></li>
-								<li class="s-instagram"><a href="#"><span class="icon-instagram"></span>Instagram</a></li>
-							</ul>
-						</div>						
-					</li>
-					<li><a class="sr" href="#"><span class="search icon-search"></span></a></li>
-				</ul>
-			</div>		
-			
-			<div id="main-menu">
-				<!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
-				<ul class="sf-menu color-m"> <!-- Menu color Class  "color-m"-->
-					<li>
-						<a href="home.html"><span class="icon-house"></span>Home</a>
-						<ul>
-							<li><a href="home-v1.html" class=" color">Home v1</a></li>
-							<li><a href="home-v2.html" class=" color">Home v2</a></li>
-							<li><a href="home-v3.html" class=" color">Home v3</a></li>
-							<li><a href="home-v4.html" class=" color">Home v4</a></li>
-						</ul>					
-					</li>
-					<li>
-						<a href="#"><span class="icon-docs"></span>Pages</a>					  
-						<ul>
-							<li>
-								<a href="#" class=" color">About us</a>
-								<ul>
-									<li><a href="about_us_v1.html" class=" color">About us v1</a></li>
-									<li><a href="about_us_v2.html" class=" color">About us v2</a></li>	
-									<li><a href="about_Meet_team.html" class=" color">Meet the team</a></li>	
-								</ul>						
-							</li>	
-							
-							<li>
-								<a href="#" class=" color">Service</a>
-								<ul>
-									<li><a href="service-1.html" class=" color">Our Service V1</a></li>
-									<li><a href="service-2.html" class=" color">Our Service V2</a></li>
-								</ul>
-							</li>
-							<li><a href="gallery.html" class=" color">Gallery</a></li>
-							<li><a href="Full_width.html" class=" color">Full Width Sample</a></li>
-							<li><a href="Page_with_right_sidebar.html" class=" color">Page with Right Sidebar</a></li>
-							<li><a href="Page_with_left_sidebar.html" class=" color">Page with Left Sidebar</a></li>
-							<li><a href="Pricing_Table.html" class=" color">Pricing Table</a></li>					
-							<li><a href="404.html" class=" color">404</a></li>
-							<li><a href="contact.html" class=" color">Contact</a></li>
-						</ul>			
-					</li>
-					<li>
-						<a href="#"><span class="icon-layout "></span>Portfolio</a>
-						<ul>
-							<li><a href="Portfolio_Fullwidth.html" class=" color">Portfolio Fullwidth</a></li>
-							<li><a href="Portfolio_Gridbase.html" class=" color">Portfolio Gridbase</a></li>
-							<li><a href="Portfolio_Listview_col.html" class=" color">Portfolio Listbase</a></li>
-							<li><a href="Portfolio_sidebar.html" class=" color">Portfolio with sidebar</a></li>					  
-							<li><a href="Portfolio_single2.html" class=" color">Portfolio Single Page 2</a></li>
-							<li><a href="Portfolio_slider.html" class=" color">Portfolio Single Slider</a></li>
-							<li><a href="Portfolio_video.html" class=" color">Portfolio Single Video</a></li>
-						</ul>	
-					</li>
-					<li>
-						<a href="#"><span class="icon-cycle"></span>Blog</a>
-						<ul>
-							<li><a href="blog.html" class=" color">Blog fullwidth</a></li>
-							<li><a href="Blog_sidebar.html" class=" color">Blog with sidebar</a></li>
-							<li><a href="Blog_Sidebar_single.html" class=" color">Single Blog Sample</a></li>
-						</ul>					
-					</li>
-					
-				    <li><a href="#"><span class="icon-feather "></span>Features</a>
-						<ul>
-							<li><a href="shortcode.html" class=" color">Shortcode</a></li>
-							<li><a href="Pricing_Widgets.html" class=" color">Pricing Table & Widgets</a></li>
-						</ul>				   
-				    </li> 
-				</ul>  
-			</div><!-- /main-menu -->
-		</div> <!-- /.container -->
-	  
-		<div class="search-bar">
-			<div class="container">
-				<p><b> <span class="search icon-search"></span></b>
-				<input type="text" value="Type to Search" name="searchinput" id="searchinput" onblur="if (this.value == ''){this.value = 'Type to Search';}" onfocus="if (this.value == 'Type to Search'){this.value = '';}"   />
-				<a href="#" class="close"> <span class="search icon-cross"></span></a></p>
-			</div> <!-- /.container -->
-		</div><!-- /.search-bar -->
-    </div><!-- /.navbar-wrapper -->
-	
-
-	
-	
+  <%= render 'nav_bar' %>
+	  	
     <!-- Revolution Slider
     ================================================== -->
          
@@ -139,7 +31,7 @@
 							<!-- THE FIRST SLIDE -->
 							<li data-transition="3dcurtain-vertical" data-slotamount="10" data-masterspeed="300" data-thumb="assets/thumbs/thumb1.jpg">
 								<!-- THE MAIN IMAGE IN THE FIRST SLIDE-->
-								<img src="assets/slides/00_01.png" alt="">
+								<img src="assets/aoh-slide1.png" alt="">
 
 								<!-- THE CAPTIONS IN THIS SLDIE -->
 								<div class="caption sfb text_background_black size30 common_color common_fonts line_normal slider_content"
@@ -175,7 +67,7 @@
 									 data-y="325"
 									 data-speed="600"
 									 data-start="4000"
-									 data-easing="easeOutExpo" ><img src="assets/slides/00_02.png" alt=""/></div>
+									 data-easing="easeOutExpo" ><img src="assets/aoh-slide2.png" alt=""/></div>
 
 										
 							</li>
@@ -183,7 +75,7 @@
 							<!-- THE SECOND SLIDE -->
 							<li data-transition="3dcurtain-vertical" data-slotamount="10" data-masterspeed="300" data-thumb="assets/thumbs/thumb1.jpg">
 								<!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
-								<img src="assets/slides/00_08.png" alt=""/>
+								<img src="assets/aoh-slide2.png" alt=""/>
 
 								<!-- THE CAPTIONS IN THIS SLDIE -->
 								<div class="caption medium_text sfb"
