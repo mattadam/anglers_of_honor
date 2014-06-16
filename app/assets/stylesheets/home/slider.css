@@ -49,11 +49,11 @@
 /*Text backgrond*/
 
 .text_background_black{
-	background: url("../images/slides/00_bg.png") repeat scroll 0 0 transparent;
+	background: url(image-path("/assets/images/00_bg.png")) repeat scroll 0 0 transparent;
 }
 
 .text_background_white{
-	background: url("../images/slides/white_bg.png") repeat scroll 0 0 transparent;
+	background: url(image-path("/assets/images/white_bg.png")) repeat scroll 0 0 transparent;
 	line-height: 35px !important;
 }
 

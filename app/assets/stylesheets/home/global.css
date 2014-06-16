@@ -715,46 +715,46 @@ a.btn-blue {
     color: #FFFFFF;
 }
 .bg-images {
-    background: url("testimonial.png") no-repeat fixed center top transparent;
+    background: url(image-path("/assets/images/testimonial.png")) no-repeat fixed center top transparent;
     color: #FFFFFF;
 }
 .bg-images-2 {
-    background: url("bg-2.png") no-repeat fixed center top transparent;
+    background: url(image-path("/assets/images/bg-2.png")) no-repeat fixed center top transparent;
 }
 .bg-team {
-    background: url("About_us_v1.png") no-repeat fixed center top transparent;
+    background: url(image-path("/assets/images/About_us_v1.png")) no-repeat fixed center top transparent;
 }
 
 .portfolio_grid_bg{
-    background: url("slider-p.png") no-repeat fixed center top transparent;
+    background: url(image-path("/assets/images/slider-p.png")) no-repeat fixed center top transparent;
 }
 
 .bg-team2 {
-    background: url("bg-Team.png") no-repeat fixed center top transparent;
+    background: url(image-path("/assets/images/bg-Team.png")) no-repeat fixed center top transparent;
 }
 .bg-ser {
-    background: url("Service-bg.png") no-repeat fixed center top transparent;
+    background: url(image-path("/assets/images/Service-bg.png")) no-repeat fixed center top transparent;
 }
 .bg-ser2 {
-    background: url("Service-2.png") no-repeat fixed center top transparent;
+    background: url(image-path("/assets/images/Service-2.png")) no-repeat fixed center top transparent;
 }
 .bg-ser3 {
-    background: url("Service-3.png") no-repeat fixed center top transparent;
+    background: url(image-path("/assets/images/Service-3.png")) no-repeat fixed center top transparent;
 }
 .bg-contact {
-    background: url("About_us_v1-2.png") no-repeat fixed center top transparent;
+    background: url(image-path("/assets/images/About_us_v1-2.png")) no-repeat fixed center top transparent;
 }
 .bg-pro {
-    background: url("Portfolio_full_width.png") no-repeat fixed center top transparent;
+    background: url(image-path("/assets/images/Portfolio_full_width.png")) no-repeat fixed center top transparent;
 }
 .bg-pro2 {
-    background: url("Portfolio_full_width-gr.png") no-repeat fixed center top transparent;
+    background: url(image-path("/assets/images/Portfolio_full_width-gr.png")) no-repeat fixed center top transparent;
 }
 .bg-pro-b{
-    background: url("banner-1.png") no-repeat fixed center top transparent;
+    background: url(image-path("/assets/images/banner-1.png")) no-repeat fixed center top transparent;
 }
 .bg-pro-b2{
-    background: url("banner-2.png") no-repeat fixed center top transparent;
+    background: url(image-path("/assets/images/banner-2.png")) no-repeat fixed center top transparent;
 }
 .home-b{
     background: url(image-path("/assets/images/banner-3.png")) no-repeat fixed center top transparent;
@@ -1363,7 +1363,7 @@ margin-left:-32px;
 
 
 #home-box {
-    background: url(subscribe_bg.png);
+    background: url(image-path("/assets/images/subscribe_bg.png"));
     background-size: 100% 100%;
     -webkit-border-radius: 5px 5px 5px 5px;
     -moz-border-radius: 5px 5px 5px 5px;
@@ -1383,7 +1383,7 @@ margin-left:-32px;
 
 
 #home-box .icons {
-  background: url(bg-icons.png) no-repeat;
+  background: url(image-path("/assets/images/bg-icons.png")) no-repeat;
   height: 290px;
   width: 1600px;
   position: absolute;
@@ -1469,20 +1469,20 @@ margin-left:-32px;
 }
  /* ---------------------------  Inner page       ------------------ */
 .title-bar {
-    background: url("..//images/title-bg.png") no-repeat scroll 0 0 transparent;
+    background: url(image-path("/assets/images/title-bg.png")) no-repeat scroll 0 0 transparent;
     padding: 23px 0;
 }
-.t-shadow{    background: url("..//images/title-shadow.png") no-repeat scroll center 0 transparent;}
+.t-shadow{    background: url(image-path("/assets/images/title-shadow.png")) no-repeat scroll center 0 transparent;}
 .t-gray {
-    background: url("..//images/title-shadow.png") no-repeat scroll center 0 #57616A;
+    background: url(image-path("/assets/images/title-shadow.png")) no-repeat scroll center 0 #57616A;
     padding: 20px 0;
 }
 .t-gray2 {
-    background: url("..//images/title-shadow.png") no-repeat scroll center 0 #2A323A ;
+    background: url(image-path("/assets/images/title-shadow.png")) no-repeat scroll center 0 #2A323A ;
     padding: 20px 0;
 }
 .tbg-2 {
-    background: url("..//images/title-bg2.png") no-repeat scroll center 0 #57616A;
+    background: url(image-path("/assets/images/title-bg2.png")) no-repeat scroll center 0 #57616A;
     padding: 20px 0;
 }
 .title-bar {
@@ -2330,7 +2330,7 @@ margin-left:-32px;
     margin-bottom: 10px;
 }
 .blogin small span {
-    background: url("dot.png") no-repeat scroll right 3px transparent;
+    background: url(image-path("/assets/images/dot.png")) no-repeat scroll right 3px transparent;
     color: #818B95;
     font-size: 12px;
     padding-left: 7px;
@@ -2560,7 +2560,7 @@ iframe:before,iframe:after{
     margin: 0;
 }
 .fbox p.date {
-    background: url("images/date.png") no-repeat scroll 0 7px transparent;
+    background: url(image-path("/assets/images/date.png")) no-repeat scroll 0 7px transparent;
     font-size: 12px;
     padding-left: 22px;
     padding-top: 3px;
@@ -2568,7 +2568,7 @@ iframe:before,iframe:after{
 
 .fbox p a{}
 .fbox p a.more {
-    background: url("images/arrow.png") no-repeat scroll right 7px transparent;
+    background: url(image-path("/assets/images/arrow.png")) no-repeat scroll right 7px transparent;
     color: #151515;
     padding-right: 22px;
 }
@@ -2726,7 +2726,7 @@ address p {
     width: 93%;
 }
 .search_box input.btn-search {
-    background: url("searchicon.png") no-repeat scroll 0 0 transparent;
+    background: url(image-path("/assets/images/searchicon.png")) no-repeat scroll 0 0 transparent;
     border: medium none transparent;
     font-size: 15px;
     height: 40px;
@@ -2886,7 +2886,7 @@ address p {
 }
 /*-----------------  Widget  List Category ---------------------*/
 .list2 ul li {
-    background: url("list.png") no-repeat scroll 0 13px transparent;
+    background: url(image-path("/assets/images/list.png")) no-repeat scroll 0 13px transparent;
     border: medium none;
     padding-left: 20px;
 }
@@ -3897,7 +3897,7 @@ Remove comment of this section for Boxed
 }
 
 #portfolio_hover .iconhover {
-    background: url("portfolio_icons.png") no-repeat;
+    background: url(image-path("/assets/images/portfolio_icons.png")) no-repeat;
     background-position: 0 0;
     width: 86px;
     height: 86px;
