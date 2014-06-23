@@ -17,6 +17,12 @@ $(document).ready(function($) {
 	    }, 1000);
 		event.preventDefault();
 	});
+	$("#donate-link").click(function() {
+		$('html, body').animate({
+	        scrollTop: $("#donate").offset().top -10
+	    }, 1000);
+		event.preventDefault();
+	});
 	$("#overview-tab").click(function() {
 		event.preventDefault();
 	});
