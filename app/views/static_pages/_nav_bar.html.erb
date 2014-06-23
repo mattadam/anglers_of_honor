@@ -20,63 +20,26 @@
 		<div id="main-menu">
 			<ul class="sf-menu color-m">
 				<li>
-					<a href="home.html"><span class="icon-house"></span>Home</a>				
+					<%= link_to '<span class="icon-house"></span>Home'.html_safe, '#' %>
 				</li>
+				
 				<li>
-					<a href="#"><span class="icon-docs"></span>Pages</a>					  
+					<a href="#" id="overview-tab"><span class="icon-layout "></span>Overview</a>
 					<ul>
-						<li>
-							<a href="#" class=" color">About us</a>
-							<ul>
-								<li><a href="about_us_v1.html" class=" color">About us v1</a></li>
-								<li><a href="about_us_v2.html" class=" color">About us v2</a></li>	
-								<li><a href="about_Meet_team.html" class=" color">Meet the team</a></li>	
-							</ul>						
-						</li>	
-
-						<li>
-							<a href="#" class=" color">Service</a>
-							<ul>
-								<li><a href="service-1.html" class=" color">Our Service V1</a></li>
-								<li><a href="service-2.html" class=" color">Our Service V2</a></li>
-							</ul>
-						</li>
-						<li><a href="gallery.html" class=" color">Gallery</a></li>
-						<li><a href="Full_width.html" class=" color">Full Width Sample</a></li>
-						<li><a href="Page_with_right_sidebar.html" class=" color">Page with Right Sidebar</a></li>
-						<li><a href="Page_with_left_sidebar.html" class=" color">Page with Left Sidebar</a></li>
-						<li><a href="Pricing_Table.html" class=" color">Pricing Table</a></li>					
-						<li><a href="404.html" class=" color">404</a></li>
-						<li><a href="contact.html" class=" color">Contact</a></li>
-					</ul>			
-				</li>
-				<li>
-					<a href="#"><span class="icon-layout "></span>Portfolio</a>
-					<ul>
-						<li><a href="Portfolio_Fullwidth.html" class=" color">Portfolio Fullwidth</a></li>
-						<li><a href="Portfolio_Gridbase.html" class=" color">Portfolio Gridbase</a></li>
-						<li><a href="Portfolio_Listview_col.html" class=" color">Portfolio Listbase</a></li>
-						<li><a href="Portfolio_sidebar.html" class=" color">Portfolio with sidebar</a></li>					  
-						<li><a href="Portfolio_single2.html" class=" color">Portfolio Single Page 2</a></li>
-						<li><a href="Portfolio_slider.html" class=" color">Portfolio Single Slider</a></li>
-						<li><a href="Portfolio_video.html" class=" color">Portfolio Single Video</a></li>
+						<li><a href="#" class=" color" id="overview">The Program</a></li>
+						<li><a href="#" class=" color" id="fishery-section">The Fishery</a></li>
+						<li><a href="#" class=" color" id="river-deep-section">River Deep</a></li>
 					</ul>	
 				</li>
-				<li>
-					<a href="#"><span class="icon-cycle"></span>Blog</a>
-					<ul>
-						<li><a href="blog.html" class=" color">Blog fullwidth</a></li>
-						<li><a href="Blog_sidebar.html" class=" color">Blog with sidebar</a></li>
-						<li><a href="Blog_Sidebar_single.html" class=" color">Single Blog Sample</a></li>
-					</ul>					
-				</li>
 
-			    <li><a href="#"><span class="icon-feather "></span>Features</a>
-					<ul>
-						<li><a href="shortcode.html" class=" color">Shortcode</a></li>
-						<li><a href="Pricing_Widgets.html" class=" color">Pricing Table & Widgets</a></li>
-					</ul>				   
-			    </li> 
+				<li>
+					<a href="#"><span class="icon-docs"></span>Friends</a>	
+					<ul>			  
+					<li><%= link_to 'Angling University', "http://www.anglinguniversity.com", class: "color", target: "_blank" %></li>
+          <li><%= link_to 'Lincoln Hills', "http://www.lincolnhills.com", class: "color", target: "_blank" %></li>
+          <li><%= link_to 'The Fly Fisher Group', "http://www.theflyfisher.com", class: "color", target: "_blank"%></li>	
+          </ul>		
+				</li>
 			</ul>  
 		</div>
 	</div>
