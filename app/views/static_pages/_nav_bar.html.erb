@@ -24,20 +24,20 @@
 				</li>
 				
 				<li>
-					<a href="#" id="overview-tab"><span class="icon-layout "></span>Overview</a>
+					<a href="#" id="overview-tab"><span class="icon-layout "></span><%= t('.link1', default: 'Overview') %></a>
 					<ul>
-						<li><a href="#" class=" color" id="overview">The Program</a></li>
-						<li><a href="#" class=" color" id="fishery-section">The Fishery</a></li>
-						<li><a href="#" class=" color" id="river-deep-section">River Deep</a></li>
+						<li><a href="#" class=" color" id="overview"><%= t('.sublink1', default: 'The Program') %></a></li>
+						<li><a href="#" class=" color" id="fishery-section"><%= t('.sublink2', default: 'The Fishery') %></a></li>
+						<li><a href="#" class=" color" id="river-deep-section"><%= t('.sublink3', default: 'River Deep') %></a></li>
 					</ul>	
 				</li>
 
 				<li>
-					<a href="#" id="donate-link"><span class="icon-heart"></span>Donate</a>
+					<a href="#" id="donate-link"><span class="icon-heart"></span><%= t('.link2', default: 'Donate') %></a>
 				</li>
 
 				<li>
-					<a href="#"><span class="icon-docs"></span>Friends</a>	
+					<a href="#"><span class="icon-docs"></span><%= t('.link3', default: 'Friends') %></a>	
 					<ul>			  
 					<li><%= link_to 'Angling University', "http://www.anglinguniversity.com", class: "color", target: "_blank" %></li>
           <li><%= link_to 'Lincoln Hills', "http://www.lincolnhills.com", class: "color", target: "_blank" %></li>
