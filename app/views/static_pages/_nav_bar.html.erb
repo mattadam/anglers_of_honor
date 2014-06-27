@@ -9,7 +9,8 @@
 				<li><a class="fr" href="#"><span class="icon-plus-3 add"></span>Follow</a>
 					<div class="follow-list"> 
 						<ul>
-							<li class="s-facebook"><a href="#"><span class="icon-facebook"></span>Facebook</a></li>
+							<li class="s-facebook"><a href="https://www.facebook.com/anglersofhonor"><span class="icon-facebook"></span>Facebook</a></li>
+							<li class="s-google"><a href="https://plus.google.com/u/0/102563214916283057262/about"><span class="icon-googleplus"></span>Google Plus</a></li>
 							<li class="s-twitter"><a href="#"><span class="icon-twitter"></span>Twitter</a></li>
 						</ul>
 					</div>						
@@ -20,7 +21,7 @@
 		<div id="main-menu">
 			<ul class="sf-menu color-m">
 				<li>
-					<%= link_to '<span class="icon-house"></span>Home'.html_safe, '#' %>
+					<%= link_to '<span class="icon-house"></span>Home'.html_safe, root_url %>
 				</li>
 				
 				<li>
@@ -37,7 +38,8 @@
 				</li>
 
 				<li>
-					<a href="#"><span class="icon-docs"></span><%= t('.link3', default: 'Friends') %></a>	
+						<%= content_tag 'a', '<span class="icon-docs"></span>Friends'.html_safe %>
+						
 					<ul>			  
 					<li><%= link_to 'Angling University', "http://www.anglinguniversity.com", class: "color", target: "_blank" %></li>
           <li><%= link_to 'Lincoln Hills', "http://www.lincolnhills.com", class: "color", target: "_blank" %></li>
