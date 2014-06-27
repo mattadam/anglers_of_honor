@@ -9,7 +9,7 @@
 				<form method="get" id="searchform" action=""> 
 	        <!--   Big Title wrap -->	
 
-						  <h1>Donate to Anglers Of Honor</h1>
+						  <h1><%= t('.heading_donate', default: 'Donate to Anglers Of Honor') %></h1>
 		  
 						<!--   hr-Start-->			  
 					<div class="hr hr-center"> <!--   hr-center/ hr-left/ hr-right/  hr-short/ hr-light/-->
@@ -18,8 +18,8 @@
 						</span>
 					</div><!--   hr-End-->
 					
-				<p>
-					Minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat...
+				<p><%= t('.text_donate', default: "Minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat...") %>
+					
 				</p>	
 				<p>
 					<a href="#" class="button donate" id="overview"><span class="icon-heart"></span> Donate</a>
