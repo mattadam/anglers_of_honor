@@ -1291,10 +1291,13 @@ a.btn-blue {
 }
 .shear-icon li {
     float: left;
-    margin-right: 60px;
+    margin-right: 36.25px;
+    margin-left: 36.25px;
+}
 }
 .shear-icon li:last-child	 {
-    margin-right: 0;
+    margin-right: 36.25px;
+    margin-left: 36.25px;
 }
 .shear-icon li a {
   -webkit-border-radius: 4px 4px 4px 4px;
