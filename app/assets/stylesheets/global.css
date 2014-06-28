@@ -89,6 +89,7 @@ ul:after {
 section{  
   margin-top: 74px;
 }
+
 .center{text-align:center;}
 h1.center {
     margin: 5px auto;
@@ -126,6 +127,8 @@ h1.center {
     max-height: 100%;
     width: auto;
 }
+
+
 /*************************************************
 main menu
 *************************************************/
@@ -405,6 +408,10 @@ main menu
 
 .follow-list li.s-instagram  a:hover,.shear-icon li.s-instagram  a:hover{
     background-color: #A1755B;
+}
+
+.follow-list li.s-house  a:hover,.shear-icon li.s-house  a:hover{
+    background-color: #6fb554;
 }
 
 .follow-list li span {
@@ -4030,6 +4037,26 @@ Remove comment of this section for Boxed
 .portfolio_last{
     margin-right: 0px !important
 }
+
+img.bg {
+  padding-top: 0px;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  img.bg {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
+
+.white { color: #fff; }
 
 a#overview.button.donate{
     background-color: #fff;
