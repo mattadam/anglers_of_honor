@@ -1357,7 +1357,7 @@ margin-left:-32px;
     z-index: 9;
 }
 /* ---------------------------  Client list ------------------ */
-.subscrib {
+/*.subscrib {
     background-attachment: scroll;
     background-clip: inherit;
     background-color: transparent;
@@ -1368,7 +1368,7 @@ margin-left:-32px;
     background-size: 100% 100%;
     border-radius: 5px 5px 5px 5px;
     padding: 40px 0;
-}
+}*/
 
 
 #home-box {
@@ -2480,9 +2480,9 @@ margin-left:-32px;
     font-size: 30px;
     font-weight: normal;
 }
-.homesub {
+/*.homesub {
     background-image: url("subscrib2.png");
-}
+}*/
 
 .home-now h2 {
     color: #FFFFFF;

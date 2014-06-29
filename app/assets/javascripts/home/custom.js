@@ -86,21 +86,6 @@ jQuery(document).ready(function() {
 		});
 	});
 	
- 
- /***************************************
- ## Get latest Tweets
- ***************************************/
-	
-	jQuery.ajax({	
-		type: "POST",
-		url: "tweets/get-tweets.php",
-		data: 'user=girlssportscoach',	//your twitter username 
-		success: function(msg){
-
-			jQuery("#gettweet").html(msg);
-		}
-
-	});
 
 jQuery().ready(function() {
     jQuery(".client").jCarouselLite({

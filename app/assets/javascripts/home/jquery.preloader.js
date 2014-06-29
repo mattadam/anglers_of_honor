@@ -69,7 +69,7 @@ jQuery.fn.preloader = function(options){
 	var icon = jQuery("<img />",{
 		
 		id : 'loadingicon' ,
-		src : 'css/i/89.gif'
+		src : 'assets/89.gif'
 		
 		}).hide().appendTo("body");
 	
