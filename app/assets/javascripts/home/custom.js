@@ -131,7 +131,7 @@ jQuery().ready(function() {
 		});		
 	jQuery("#slider2").cycle({ 
 	    fx:     'scrollHorz',
-	    timeout: 4000,	   
+	    timeout: 7000,	   
     speedIn:  1200, 
     speedOut: 2000, 
     easeIn:  'easeInCirc', 
