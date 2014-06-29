@@ -1,43 +1,33 @@
-<div class="col-wrap col-gray" id="donate"><!-- style col-shadow/ col-gray/ testimonial/-->
+<div class="col-wrap col-gray" id="donate">
 	<div class="container ">
+    <div class="row-fluid tb-mar">
 
-      <!-- Two columns of text below the Box -->
-      <div class="row-fluid tb-mar"><!-- box-style row Class .box-style -->
-
-        <div class="span12">
-			<div class="subscrib homesub">
-				<form method="get" id="searchform" action=""> 
-	        <!--   Big Title wrap -->	
-
-						  <h1><%= t('.heading_donate', default: 'Donate to Anglers Of Honor') %></h1>
-		  
-						<!--   hr-Start-->			  
-					<div class="hr hr-center"> <!--   hr-center/ hr-left/ hr-right/  hr-short/ hr-light/-->
-						<span class="hr-inner">
-							<span class="hr-inner-style"></span>
-						</span>
-					</div><!--   hr-End-->
-					
-				<p><%= t('.text_donate', default: "Minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat...") %>
-					
-				</p>	
-				<p>
+      <div class="span12">
+				<div class="subscrib homesub">
 					<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+						
+						<h1><%= t('.heading_donate', default: 'Donate to Anglers Of Honor') %></h1>
+			  	  
+						<div class="hr hr-center"> 
+							<span class="hr-inner">
+								<span class="hr-inner-style"></span>
+							</span>
+						</div>
+						
+						<p><%= t('.text_donate', default: "Please click the Donate button below. You will be routed to the PayPal website where you can use your credit card or PayPal account to contribute. Please note that you do not need to have a PayPal account to make a donation.") %>
+							
+						</p>	
+						<p>
+							
 						<input type="hidden" name="cmd" value="_s-xclick">
 						<input type="hidden" name="hosted_button_id" value="XP8W5XXEWK6HE">
 						<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 						<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+							
+						<p></p>
 					</form>
-
-				<p></p>
-				</form>
-
-			</div><!-- /portfolio-item -->
-        </div><!-- /.span4 -->
- 		
-			 
-      </div><!-- /.row -->		
-	 
- 
-	</div><!-- /.container -->
-</div><!-- /.col -->	
+				</div>
+    	</div>
+    </div>	
+	</div>
+</div>
