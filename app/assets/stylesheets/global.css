@@ -1680,6 +1680,8 @@ margin-left:-32px;
 }	
  /* ---------------------------  Service page       ------------------ */
  .service2 {
+    min-height: 200px;
+    max-height: 200px;
 	background: none repeat scroll 0 0 #FFFFFF;
     border: 1px solid #E1E1E1;
     -webkit-border-radius: 5px 5px 5px 5px;
