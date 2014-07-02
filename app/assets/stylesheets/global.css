@@ -3058,7 +3058,10 @@ address p {
 }
 	
 }	
-	
+
+.navbar-toggle{
+    display: none;
+}
 
     /* RESPONSIVE CSS
     -------------------------------------------------- */
@@ -3068,6 +3071,12 @@ address p {
 .service2 h2{
     font-size: 16px; 
     padding-left: 42px; 
+}
+
+.navbar-toggle{
+    display: block;
+    background:url(menu_icon.png);
+    background-repeat:no-repeat;
 }
 
 .blog .imgslider {
@@ -3150,7 +3159,7 @@ address p {
     margin: 20px 12px 4px -16px;
     min-width: 250px;
     padding: 0 8px 31px;
-    width: 100%;    
+    width: 50%;    
 }
 
 .sbSelector{
@@ -3461,6 +3470,52 @@ footer h3 {
 }
 	/* RESPONSIVE CSS
     -------------------------------------------------- */
+
+@media (max-width: 979px) {
+
+#main-menu ul.navbar-right li{
+    float:none;
+}
+
+#main-menu ul.navbar-right li a{
+    height: 33px;
+    line-height: 33px;
+}
+.navbar-right a{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-bottom: dotted 1px #515151;
+    display: block;
+    outline: none;
+    padding: 7px 0 7px 3px;
+}
+.navbar-right a:link, .navbar-right a:visited{
+    text-decoration: none;
+    color: #2A323A;
+}
+.navbar-right a:hover,
+.navbar-right a:focus,
+.navbar-right a.sbFocus{
+    color: #EBB52D;
+}
+.navbar-right li.last a{
+    border-bottom: none;
+}
+.navbar-right .sbDisabled{
+    border-bottom: dotted 1px #515151;
+    color: #999;
+    display: block;
+    padding: 7px 0 7px 3px;
+}
+.navbar-right .sbGroup{
+    border-bottom: dotted 1px #515151;
+    color: #EBB52D;
+    display: block;
+    font-weight: bold;
+    padding: 7px 0 7px 3px;
+}
+.navbar-right .sbSub{
+    padding-left: 17px;
+}}
     @media (max-width: 650px) {
 
 .half_w_v {
