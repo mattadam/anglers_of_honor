@@ -9,10 +9,10 @@
 // Tinynav
 jQuery(function(){
     // Main Menu
-    jQuery('.sf-menu').tinyNav({
-        active: 'selected' ,// Set the "active" class
-		header: 'Menu'
-    });
+  //   jQuery('.sf-menu').tinyNav({
+  //       active: 'selected' ,// Set the "active" class
+		// header: 'Menu'
+  //   });
 
     // Subheader Menu (uncomment to use)
     //jQuery('.sub-header-menu').tinyNav({
