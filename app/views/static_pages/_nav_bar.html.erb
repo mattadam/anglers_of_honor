@@ -21,25 +21,25 @@
 		<div id="main-menu">
 			<ul class="sf-menu color-m">
 				<li>
-					<%= content_tag 'a', '<span class="icon-house"></span>Home'.html_safe %>
+					<%= link_to '<span class="icon-house"></span>Home'.html_safe, root_path %>
 				</li>
 				
 				<li>
 					<a href="#" id="overview-tab"><span class="icon-layout "></span><%= t('.link1', default: 'Overview') %></a>
 					<ul>
-						<li><a href="#" class=" color" id="overview"><%= t('.sublink1', default: 'The Program') %></a></li>
-						<li><a href="#" class=" color" id="fishery-section"><%= t('.sublink2', default: 'The Fishery') %></a></li>
-						<li><a href="#" class=" color" id="river-deep-section"><%= t('.sublink3', default: 'River Deep') %></a></li>
+						<li><a href="#who-we-are" class=" color" id="overview"><%= t('.sublink1', default: 'The Program') %></a></li>
+						<li><a href="#fishery" class=" color" id="fishery-section"><%= t('.sublink2', default: 'The Fishery') %></a></li>
+						<li><a href="#river-deep" class=" color" id="river-deep-section"><%= t('.sublink3', default: 'River Deep') %></a></li>
 					</ul>	
 				</li>
 
 				<li>
-					<a href="#" id="donate-link"><span class="icon-heart"></span><%= t('.link2', default: 'Donate') %></a>
+					<a href="#donate" id="donate-link"><span class="icon-heart"></span><%= t('.link2', default: 'Donate') %></a>
 				</li>
 
 				<li>
-						<%= content_tag 'a', '<span class="icon-docs"></span>Friends'.html_safe %>
-						
+					<%= link_to '<span class="icon-docs"></span>Friends'.html_safe, '#' %>
+					
 					<ul>			  
 					<li><%= link_to 'Angling University', "http://www.anglinguniversity.com", class: "color", target: "_blank" %></li>
 					<li><%= link_to 'Boulder River Ranch', "http://www.boulderriverranch.com/", class: "color", target: "_blank" %></li>

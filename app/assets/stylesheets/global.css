@@ -3599,6 +3599,7 @@ footer h3 {
     display: inherit;
     max-height: 100%;
     width: auto;
+    padding-bottom: 20px;
 }
 .follower {
     display: block;
